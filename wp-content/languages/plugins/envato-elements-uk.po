@@ -1,0 +1,67 @@
+# Translation of Plugins - Envato Elements &#8211; Photos &amp; Elementor Templates - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Envato Elements &#8211; Photos &amp; Elementor Templates - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-16 16:34:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Envato Elements &#8211; Photos &amp; Elementor Templates - Stable (latest release)\n"
+
+#: inc/backend/class-welcome.php:89 inc/backend/class-welcome.php:90
+msgid "Photos"
+msgstr "Фотографії"
+
+#: inc/backend/class-welcome.php:98 inc/backend/class-welcome.php:99
+msgid "Settings"
+msgstr "Налаштування"
+
+#: inc/api/class-template-kit-import.php:108
+msgid "Other"
+msgstr "Інше"
+
+#: inc/backend/class-welcome.php:53 inc/backend/class-welcome.php:54
+msgid "Template Kits"
+msgstr "Template Kits"
+
+#: inc/backend/class-welcome.php:33
+msgid "Elements"
+msgstr "Elements"
+
+#: envato-elements.php:81
+msgid "7.2 or above"
+msgstr "7.2 або вище"
+
+#. translators: %s: PHP version
+#: envato-elements.php:76
+msgid "Envato Elements requires PHP version %s+, plugin is currently NOT ACTIVE. Please contact the hosting provider. WordPress recommends version %s."
+msgstr "Envato Elements вимагає PHP версії %s +, плагін наразі НЕ АКТИВНИЙ. Будь ласка, зв&#39;яжіться з хостингом. WordPress рекомендує версію %s."
+
+#. Author of the plugin
+msgid "Envato"
+msgstr "Envato"
+
+#. Plugin Name of the plugin
+#: inc/backend/class-welcome.php:32 inc/backend/class-welcome.php:44
+msgid "Envato Elements"
+msgstr "Envato Elements"
+
+#: inc/utils/class-base.php:51 inc/utils/class-base.php:62
+msgid "Something went wrong."
+msgstr "Щось пішло не так."
+
+#: inc/utils/class-extensions-api.php:155
+msgid "An error occurred, please try again"
+msgstr "Сталася помилка, спробуйте ще раз"
+
+#: inc/utils/class-extensions-api.php:161
+msgid "HTTP Error"
+msgstr "HTTP Помилка"
+
+#. translators: %s: WordPress version
+#: envato-elements.php:100
+msgid "Envato Elements requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT ACTIVE."
+msgstr "Envato Elements вимагає WordPress версії %s +. Оскільки ви використовуєте попередню версію, плагін наразі НЕ АКТИВНО."
