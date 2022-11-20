@@ -1,0 +1,34 @@
+/*************************** BG COLOR Background Color *************************/
+.bg_color_navy {
+    background-color: var(--color-brand-navy-primary);
+}
+.bg_color_yelow {
+    background-color: var(--color-status-progress);
+}
+.bg_color_orange {
+    background-color: var(--color-p-primary-orange);
+}
+.bg_color_purple {
+    background-color: var(--color-p-secondary-purple);
+}
+.bg_color_blue {
+    background-color: var(--color-h-secondary-blue);
+}
+.bg_color_m-blue {
+    background-color: var(--color-brand-m-blue-primary);
+}
+.bg_color_green {
+    background-color: var(--color-h-secondary-green);
+}
+.bg_color_primary_green {
+    background-color: var(--color-h-primary-green);
+}
+.bg_color_turquoise {
+    background-color: var(--color-p-secondary-green);
+}
+.bg_primary_grey {
+    background-color: var(--color-primary-bg);
+}
+.bg_color_white {
+    background-color: #ffffff;
+}

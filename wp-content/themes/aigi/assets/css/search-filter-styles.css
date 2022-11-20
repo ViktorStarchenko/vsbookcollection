@@ -1,0 +1,97 @@
+/*SEARCH & FILTER*/
+.searchandfilter ul li[data-sf-field-input-type="checkbox"] ul {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding-left: 0;
+    overflow: auto;
+    background-color: var(--color-primary-bg);
+    /*position: absolute;*/
+    /*z-index: 10;*/
+}
+.searchandfilter ul li[data-sf-field-input-type="checkbox"] ul.active {
+
+}
+.searchandfilter ul li[data-sf-field-input-type="checkbox"] h4 {
+    cursor: pointer;
+}
+
+.searchandfilter ul li:before {
+    display: none;
+}
+
+.searchandfilter > ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+.searchandfilter > ul > li {
+    flex: auto;
+}
+.searchandfilter ul li[data-sf-field-input-type="checkbox"] {
+    border-top: 1px solid var(--color-line-separator);
+    position: relative;
+}
+.searchandfilter ul li[data-sf-field-input-type="checkbox"] h4:after {
+    content: '';
+/* transform: rotate(180deg); */
+    background-image: url(../images/Triangle-p-blue.svg);
+    right: 8px;
+    top: 22px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8px;
+    height: 9px;
+    transform: rotate(90deg);
+    position: absolute;
+    display: block;
+    transition-duration: 0.2s;
+}
+.searchandfilter ul li[data-sf-field-input-type="checkbox"] h4.active:after {
+     transform: rotate(-90deg);
+}
+.searchandfilter ul li li {
+    display: flex;
+    align-items: flex-start;
+}
+.search-filter-reset {
+    min-width: 217px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 17px 20px;
+    transition: all .3s;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+
+    color: #FFFFFF;
+    background-color: var(--color-h-secondary-blue);
+    /* box-shadow: inset 0 0 0 1px var(--color-h-secondary-blue); */
+    border: 1px solid var(--color-h-secondary-blue);
+
+    margin-top: 20px;
+    width: 100%;
+    max-width: unset;
+}
+@media (max-width: 767px) {
+    .searchandfilter > ul {
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .searchandfilter > ul > li {
+        width: 100%;
+    }
+}
