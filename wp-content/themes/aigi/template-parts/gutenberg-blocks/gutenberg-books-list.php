@@ -37,7 +37,7 @@ if (!empty($block['align'])) {
         $query = new WP_Query($args);
 
         $posts = $query->get_posts();
-var_dump('test');
+
 //wp_die();
 //        $posts = get_posts( array(
 //            'numberposts' => $numberposts,
