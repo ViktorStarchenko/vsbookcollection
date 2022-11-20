@@ -1,0 +1,28 @@
+@import 'variables.css';
+@import 'bg-colors.css';
+@import 'wrappers-styles.css';
+@import 'layout-styles.css';
+@import 'partners-tiles-styles.css';
+@import 'header-slider-styles.css';
+@import 'search-filter-styles.css';
+@import 'rslider-styles.css';
+@import 'search-page-styles.css';
+@import 'post-tile-styles.css';
+
+
+.wp-admin .after-content-blocks,
+.wp-admin #acf-group_61cddcf356b31 {
+    background: #131032;
+}
+.wp-admin #acf-group_61cddcf356b31 {
+    /*color: #fff!important;*/
+}
+
+.wp-admin .header-slider,
+.wp-admin #acf-group_61aa4fd4d94e6 {
+    background: #D4003F;
+}
+.wp-admin #acf-group_61aa4fd4d94e6 {
+    /*color: #fff!important;*/
+}
+

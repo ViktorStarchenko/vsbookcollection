@@ -1,0 +1,114 @@
+/*************************** WRAPPING STYLES **************************/
+.wrapper-1245 {
+    width: 100%;
+    max-width: 1245px;
+    margin: auto;
+}
+.wrapper-1296 {
+    width: 100%;
+    max-width: 1296px;
+    margin: auto;
+}
+.wrapper-1110 {
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+}
+.wrapper-1245.stick-right {
+    margin-left: auto;
+    margin-right: 0;
+    max-width: calc( 1245px +  (100vw - 1245px) / 2)
+}
+.top-of-hero {
+    margin-top: -79px;
+    position: relative;
+}
+.wrapper-full-width {
+    max-width: unset;
+    width: 100%;
+}
+.content-wrapper {
+    position: relative;
+}
+.content-wrapper.single-column {
+    padding-top: 79px;
+}
+.shadow-screen {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    opacity: 0;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    padding-top: 4vw;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    display: none;
+}
+.shadow-screen.active {
+    opacity: 1;
+    /*z-index: 441;*/
+    background-color: var(--color-overlay-bg);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    display: block;
+    z-index: 10;
+}
+@media (min-width: 1920px)  {
+
+}
+@media (max-width: 1300px) {
+    .wrapper-1245 {
+        max-width: 1144px;
+    }
+    .wrapper-1245.stick-right {
+        max-width: calc( 1144px +  (100vw - 1144px) / 2);
+    }
+}
+@media (max-width: 1144px) {
+    .wrapper-1110 {
+        max-width: 910px;
+    }
+    .wrapper-1245 {
+        max-width: 1024px;
+    }
+    .wrapper-1245.stick-right {
+        max-width: calc( 1024px +  (100vw - 1024px) / 2);
+    }
+}
+@media (max-width: 1024px) {
+    .wrapper-1245 {
+        max-width: 910px;
+    }
+    .wrapper-1245.stick-right {
+        max-width: calc( 910px +  (100vw - 910px) / 2);
+    }
+}
+@media (max-width: 910px)  {
+    .content-wrapper.wrapper-1245 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .content-wrapper.wrapper-1245.stick-right {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .content-wrapper.wrapper-1110 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top-of-hero {
+        margin-top: 0;
+    }
+    .wrapper-1245.stick-right .content-wrapper.wrapper-full-width {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+@media (max-width: 767px) {
+    .content-wrapper.mobile-fullwidth {
+        padding: 0;
+    }
+}
